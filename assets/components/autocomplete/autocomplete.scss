@@ -1,0 +1,21 @@
+@import "~/css/base.css";
+
+:host {
+    font-family: va(--ff-main);
+    background-color: var(--c-white);
+}
+
+.list {
+    margin: 0 auto;
+    .profile-img {
+        border-radius: 50%;
+    }
+    li {
+        width: 100%;
+
+        div {
+            text-transform: capitalize;
+            font-size: 14px;
+        }
+    }
+}
